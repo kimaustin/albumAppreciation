@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Noto+Serif+JP|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Muli|Work+Sans');
+
+body {
+	max-height: 100vh;
+	box-sizing: border-box; 
+}
+
+.intro {
+	font-family: Archivo Black;
+	cursor: auto;
+	color: white;
+	background-color: rgb(213, 184, 255);
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	width: 25vw;
+	height: 6vh;
+	left: 0;
+	top: 0;
+	transition: 0.3s;
+  	-ms-transform: translate(-50%, -15%);
+	border: none;
+	padding: 1vw 2.8vw;
+	text-align: center;
+	font-size: 1.0vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.sys {
+	font-family: Archivo Black;
+	cursor:pointer;
+	color: black;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	width: 25vw;
+	height: 6vh;
+	left: 25vw;
+	top: 0;
+	transition: 0.3s;
+  	-ms-transform: translate(-50%, -15%);
+	border: none;
+	padding: 1vw 2.8vw;
+	text-align: center;
+	font-size: 1.0vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.sys:hover {
+	color: white;
+	background-color: rgb(123, 239, 178);
+}
+
+.inter {
+	font-family: Archivo Black;
+	cursor:pointer;
+	color:black;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	width: 25vw;
+	height: 6vh;
+	left: 50vw;
+	top: 0;
+	transition: 0.3s;
+  	-ms-transform: translate(-50%, -15%);
+	border: none;
+	padding: 1vw 2.8vw;
+	text-align: center;
+	font-size: 1.0vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.inter:hover {
+	color: white;
+	background-color: rgb(0, 181, 204);
+}
+
+.doc {
+	font-family: Archivo Black;
+	cursor:pointer;	
+	color:black;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	width: 25vw;
+	height: 6vh;
+	left: 75vw;
+	top: 0;
+	transition: 0.3s;
+  	-ms-transform: translate(-50%, -15%);
+	border: none;
+	padding: 1vw 2.8vw;
+	text-align: center;
+	font-size: 1.0vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.doc:hover {
+	color: white;
+	background-color: rgb(252, 214, 112);
+}
+
+.col {
+	font-family: Muli;
+	font-size: 1.2vw;
+	padding-top: 5vw;
+	padding-left: 21%;
+	padding-bottom: 0;
+	width: 60%;
+}
+
+
